@@ -288,3 +288,10 @@ section .imgInfo img {
     color: #E21051;
     font-weight: bold;
 }
+footer {
+    margin: 15px 15px;
+    background-color: #F9FAFC;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
