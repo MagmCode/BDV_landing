@@ -19,6 +19,7 @@ header .logo {
     cursor: pointer;
     height: 65px;
 }
+
 header figure {
     display: flex;
     flex-direction: column;
@@ -33,6 +34,7 @@ header figure figcaption {
     color: #0167b1;
     font-weight: bold;
 }
+
 header figure #user {
     width: 70px;
     height: 70px;
@@ -64,6 +66,7 @@ header nav .nav_link {
     display: flex;
     margin: 85px 15px 45px 15px;
 }
+
 #section1 .text-container {
     flex: 1;
     display: flex;
@@ -86,7 +89,7 @@ header nav .nav_link {
 #section1 p {
     font-size: 2em;
     max-width: 600px;
-    margin-left: 5px ;
+    margin-left: 5px;
     margin-bottom: 80px;
     color: #0167b1;
 }
@@ -150,7 +153,8 @@ nav .navbar span {
     font-size: 0.7em;
     color: #ffffff;
 }
-/* section 2 */ 
+
+/* section 2 */
 section .info {
     display: flex;
     align-items: baseline;
@@ -167,6 +171,7 @@ section .info img {
     max-width: 100%;
     height: 266px;
 }
+
 section .info span {
     font-size: 1em;
     font-weight: bold;
@@ -174,3 +179,35 @@ section .info span {
     text-align: center;
     padding: 0 10px;
 }
+
+/* barra azul  */
+section .blue-bar {
+    display: flex;
+    background-color: #0167B1;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    border-radius: 60px;
+    margin: 80px 15px;
+}
+
+section .blue-bar .imgIzqu {
+    margin: 0 10px;
+    max-width: 180px;
+    height: 120px;
+    padding-left: 30px;
+}
+section .blue-bar .imgDer {
+    margin: 0 10px;
+    max-width: 180px;
+    height: 120px;
+    padding-right: 20px;
+}
+
+section .blue-bar p {
+    flex: 1;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
